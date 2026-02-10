@@ -9,9 +9,8 @@ jobs:
            shell: bash  
         -  name: running multiple c0mmands
            run: |
-           shell: bash
              ls -l
              ls -ltr
-        
+          
     
     
