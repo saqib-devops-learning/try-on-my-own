@@ -1,0 +1,17 @@
+name:  trying-on-my-own
+on: push
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+        -  name: running shell commands
+           run: echo "Hello World"
+           shell: bash  
+        -  name: running multiple c0mmands
+           run: |
+           shell:
+             ls -l
+             ls -ltr
+        
+    
+    
